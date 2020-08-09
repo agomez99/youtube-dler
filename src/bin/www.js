@@ -5,7 +5,7 @@
 const fs = require('fs');
 const http = require('http');
 
-const debug = require('debug')('trayzen-yt-downloader:server');
+const debug = require('debug')('agomez99-youtube-dler:server');
 const app = require('../app');
 
 const port = normalizePort(process.env.PORT || '3001');
