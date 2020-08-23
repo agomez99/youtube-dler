@@ -112,6 +112,7 @@ function submitUrl() {
   };
 
   postConvertRequest(httpRequest, videoUrl, optionsTabSelected);
+  document.getElementById('url-field').value ="";
 }
 
 function postConvertRequest(httpRequestObject, videoUrl, format) {
