@@ -77,7 +77,7 @@ function drawActiveProgress(circleContext, percentage) {
   } = circleContext;
   const angle = 2 * Math.PI * percentage;
 
-  drawingContext.fillStyle = '#00d4ff';
+  drawingContext.fillStyle = '#06e624';
   drawingContext.beginPath();
   drawingContext.arc(center.x, center.y, radius + thickness, 0, angle, false);
   drawingContext.lineTo(center.x + radius * Math.cos(angle), center.y + radius * Math.sin(angle));

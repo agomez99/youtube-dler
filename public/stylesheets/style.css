@@ -48,6 +48,10 @@ button, input[type=button] {
   cursor: pointer;
 }
 
+#download-button{
+  background-color:#06e624;
+  color:whitesmoke;
+}
 input[type=button] {
   border-radius: 6px;
   margin-top: 20px;

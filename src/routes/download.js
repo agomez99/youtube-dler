@@ -12,6 +12,7 @@ const download = async (request, response) => {
     logger.error(`Failed to get information ${error}`);
     response.write(`\n${JSON.stringify({ state: 'get-info-error', info: error })}`);
     return response.end();
+    
   }
 
   const title = request.query.title.replace(/\//g, ' '); // replace every '/' in the title by ' ', to avoid error
